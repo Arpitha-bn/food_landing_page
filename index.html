@@ -3,23 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FoodFlow - #1 Food Delivery App Development Company</title>
+    <title>JurySoft - #1 Food Delivery App Development Company</title>
     <meta name="description" content="Leading food delivery app development company. We build scalable, feature-rich food delivery platforms for restaurants, customers, and delivery partners.">
-    <link rel="stylesheet" href="assets/style.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="assets/style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
             <div class="nav-brand">
-                
-                <img src="assets/images/Jurysoft-Logo-white.png" width="150" />
-                <!-- <div class="logo-icon"> -->
-                    <!-- <i class="fas fa-utensils"></i> -->
-                <!-- </div> -->
-                <!-- <span class="brand-text">jurysoft<span class="pro-text"></span></span> -->
+                 <img src="assets/images/Jurysoft-Logo-white.png" width="150" />
             </div>
             <ul class="nav-links">
                 <li><a href="#home" class="nav-link">Home</a></li>
@@ -48,6 +44,10 @@
                 <div class="shape shape-4"></div>
             </div>
         </div>
+
+
+
+
         
         <!-- Floating Food Images -->
         <div class="food-images">
@@ -89,16 +89,16 @@
                     
                     <div class="hero-metrics">
                         <div class="metric-item">
-                            <div class="metric-number" data-target="500">0</div>
-                            <div class="metric-label">Apps Delivered</div>
+                            <div class="metric-number">300+</div>
+                            <div class="metric-label">Projects Delivered</div>
                         </div>
                         <div class="metric-item">
-                            <div class="metric-number" data-target="98">0</div>
+                            <div class="metric-number">98%</div>
                             <div class="metric-label">Success Rate</div>
                         </div>
                         <div class="metric-item">
-                            <div class="metric-number" data-target="50">0</div>
-                            <div class="metric-label">Countries</div>
+                            <div class="metric-number">14+</div>
+                            <div class="metric-label">Experience</div>
                         </div>
                     </div>
                     
@@ -145,7 +145,7 @@
                                 <option value="admin-panel">Admin Dashboard</option>
                                 <option value="complete-solution">Complete Solution</option>
                             </select>
-                            <i class="fas fa-chevron-down"></i>
+                            <!-- <i class="fas fa-chevron-down"></i> -->
                         </div>
                         
                         <div class="input-group">
@@ -278,7 +278,10 @@
     <section id="solutions" class="solutions-section">
         <div class="container">
             <div class="section-header">
-                <div class="section-badge">Our Solutions</div>
+                <div class="section-badge">
+                    <i class="fas fa-lightbulb"></i>
+                    Our Solutions
+                </div>
                 <h2 class="section-title">
                     Complete <span class="gradient-text">Ecosystem</span> for Food Delivery
                 </h2>
@@ -290,7 +293,7 @@
             <!-- Food Categories Showcase -->
             <div class="food-categories">
                 <div class="category-card">
-                    <div class="category-image" style="background-image: url('https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop');">
+                    <div class="category-image" style="background-image: url('assets/images/pizza.jpg');">
                         <div class="category-overlay">
                             <span>Pizza & Italian</span>
                         </div>
@@ -336,6 +339,30 @@
                         <p>Authentic Asian flavors from Chinese, Thai, Japanese and more</p>
                     </div>
                 </div>
+
+                <div class="category-card">
+                    <div class="category-image" style="background-image: url('https://images.unsplash.com/photo-1562059390-a761a084768e?w=400&h=300&fit=crop');">
+                        <div class="category-overlay">
+                            <span>Desserts & Sweets</span>
+                        </div>
+                    </div>
+                    <div class="category-info">
+                        <h4>Desserts & Sweets</h4>
+                        <p>Delicious desserts and sweet treats for every celebration</p>
+                    </div>
+                </div>
+
+                <div class="category-card">
+                    <div class="category-image" style="background-image: url('https://images.unsplash.com/photo-1551024601-bec78aea704b?w=400&h=300&fit=crop');">
+                        <div class="category-overlay">
+                            <span>Beverages & Drinks</span>
+                        </div>
+                    </div>
+                    <div class="category-info">
+                        <h4>Beverages & Drinks</h4>
+                        <p>Refreshing drinks, smoothies, coffee and fresh juices</p>
+                    </div>
+                </div>
             </div>
             
             <!-- Solution Showcase -->
@@ -355,25 +382,43 @@
                 </div>
                 
                 <div class="solution-visual">
-                    <div class="app-preview">
-                        <div class="app-screen">
-                            <div class="app-header">
-                                <span>FoodFlow Customer App</span>
-                            </div>
-                            <div class="app-content">
-                                <div class="food-showcase">
-                                    <div class="showcase-item">
-                                        <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=150&h=100&fit=crop" alt="Pizza">
-                                        <div class="item-info">
-                                            <h4>Margherita Pizza</h4>
-                                            <p>$12.99</p>
+                    <div class="mobile-mockup">
+                        <div class="mobile-frame">
+                            <div class="mobile-screen">
+                                <div class="screen-header">
+                                    <h4>Order Your Favorite Food</h4>
+                                </div>
+                                <div class="screen-content">
+                                    <div class="food-item-card">
+                                        <img src="assets/images/pizza.jpg" alt="Pizza">
+                                        <div class="food-item-info">
+                                            <h5>Margherita Pizza</h5>
+                                            <div class="rating">⭐⭐⭐⭐⭐ 4.8</div>
+                                            <div class="price">89</div>
                                         </div>
                                     </div>
-                                    <div class="showcase-item">
-                                        <img src="https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=150&h=100&fit=crop" alt="Burger">
-                                        <div class="item-info">
-                                            <h4>Classic Burger</h4>
-                                            <p>$9.99</p>
+                                    <div class="food-item-card">
+                                        <img src="https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=150&h=150&fit=crop" alt="Burger">
+                                        <div class="food-item-info">
+                                            <h5>Classic Burger</h5>
+                                            <div class="rating">⭐⭐⭐⭐⭐ 4.6</div>
+                                            <div class="price">99</div>
+                                        </div>
+                                    </div>
+                                                                        <div class="food-item-card">
+                                        <img src="assets/images/pizza.jpg" alt="Pizza">
+                                        <div class="food-item-info">
+                                            <h5>Corn Pizza</h5>
+                                            <div class="rating">⭐⭐⭐⭐⭐ 4.8</div>
+                                            <div class="price">120</div>
+                                        </div>
+                                    </div>
+                                    <div class="food-item-card">
+                                        <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=150&h=150&fit=crop" alt="Salad">
+                                        <div class="food-item-info">
+                                            <h5>Fresh Salad Bowl</h5>
+                                            <div class="rating">⭐⭐⭐⭐⭐ 4.9</div>
+                                            <div class="price">110</div>
                                         </div>
                                     </div>
                                 </div>
@@ -389,9 +434,12 @@
     <section id="expertise" class="expertise-section">
         <div class="container">
             <div class="section-header">
-                <div class="section-badge">Our Expertise</div>
+                <div class="section-badge">
+                    <i class="fas fa-award"></i>
+                    Our Expertise
+                </div>
                 <h2 class="section-title">
-                    Why Choose <span class="gradient-text">FoodFlow</span> for Your Project
+                    Why Choose <span class="gradient-text">JurySoft</span> for Your Project
                 </h2>
                 <p class="section-description">
                     We bring years of experience and cutting-edge technology to deliver exceptional food delivery solutions
@@ -490,7 +538,10 @@
     <section id="tech" class="tech-section">
         <div class="container">
             <div class="section-header">
-                <div class="section-badge">Technology Stack</div>
+                <div class="section-badge">
+                    <i class="fas fa-code"></i>
+                    Technology Stack
+                </div>
                 <h2 class="section-title">
                     Cutting-Edge <span class="gradient-text">Technologies</span> We Use
                 </h2>
@@ -555,6 +606,20 @@
                     </div>
                     <span>Docker</span>
                 </div>
+
+                <div class="tech-item">
+                    <div class="tech-logo">
+                        <i class="fab fa-angular"></i>
+                    </div>
+                    <span>Angular</span>
+                </div>
+
+                <div class="tech-item">
+                    <div class="tech-logo">
+                        <i class="fab fa-vuejs"></i>
+                    </div>
+                    <span>Vue.js</span>
+                </div>
             </div>
         </div>
     </section>
@@ -574,7 +639,7 @@
                             </div>
                             <div class="contact-content">
                                 <h4>Office Location</h4>
-                                <p>plot no:477,jawaharlal Nehru Rd,near GRT,<br>opp.to Hyderadadi Biriyani,<br>BEML layout 3rd Stage ,RajaRajeshwari Nagar</p>
+                                <p>Plot no:477, Jawaharlal Nehru Rd, near GRT,<br>opp. to Hyderabadi Biryani,<br>BEML Layout 3rd Stage, RajaRajeshwari Nagar</p>
                             </div>
                         </div>
                         
@@ -657,7 +722,7 @@
                         
                         <div class="form-checkbox">
                             <input type="checkbox" id="terms" required>
-                            <label for="terms">I agree to the <a href="#" class="form-link">Terms of Service</a> and <a href="#" class="form-link">Privacy Policy</a></label>
+                            <label for="terms">I agree to the Terms of Service and Privacy Policy</label>
                         </div>
                         
                         <button type="submit" class="form-submit">
@@ -676,11 +741,7 @@
             <div class="footer-main">
                 <div class="footer-brand">
                     <div class="footer-logo">
-                        <!-- <div class="logo-icon"> -->
-                            <!-- <i class="fas fa-utensils"></i> -->
-                        <!-- </div> -->
-                      <img src="assets/images/Jurysoft-Logo-white.png" width="150" />
-                        <!-- <span class="brand-text">jury<span class="pro-text">soft</span></span> -->
+                         <img src="assets/images/Jurysoft-Logo-white.png" width="150" />
                     </div>
                     <p class="footer-description">
                         Leading food delivery app development company, creating innovative solutions that connect restaurants, customers, and delivery partners worldwide.
@@ -704,60 +765,58 @@
                     </div>
                 </div>
                 
-                <div class="footer-links">
-                    <div class="footer-column">
-                        <h4>Services</h4>
-                        <ul>
-                            <li><a href="#">Customer Mobile App</a></li>
-                            <li><a href="#">Restaurant Management</a></li>
-                            <li><a href="#">Delivery Partner App</a></li>
-                            <li><a href="#">Admin Dashboard</a></li>
-                            <li><a href="#">UI/UX Design</a></li>
-                            <li><a href="#">Support & Maintenance</a></li>
-                        </ul>
-                    </div>
-                    
-                    <div class="footer-column">
-                        <h4>Solutions</h4>
-                        <ul>
-                            <li><a href="#">Food Delivery Platform</a></li>
-                            <li><a href="#">Restaurant Aggregator</a></li>
-                            <li><a href="#">Cloud Kitchen Solution</a></li>
-                            <li><a href="#">Multi-vendor Marketplace</a></li>
-                            <li><a href="#">White Label Solutions</a></li>
-                            <li><a href="#">Custom Development</a></li>
-                        </ul>
-                    </div>
-                    
-                    <div class="footer-column">
-                        <h4>Technologies</h4>
-                        <ul>
-                            <li><a href="#">React Native</a></li>
-                            <li><a href="#">Flutter</a></li>
-                            <li><a href="#">Node.js</a></li>
-                            <li><a href="#">Python</a></li>
-                            <li><a href="#">AWS Cloud</a></li>
-                            <li><a href="#">Firebase</a></li>
-                        </ul>
-                    </div>
-                    
-                    <div class="footer-column">
-                        <h4>Company</h4>
-                        <ul>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Our Team</a></li>
-                            <li><a href="#">Case Studies</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Careers</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                        </ul>
-                    </div>
+                <div class="footer-column">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Customer Mobile App</a></li>
+                        <li><a href="#">Restaurant Management</a></li>
+                        <li><a href="#">Delivery Partner App</a></li>
+                        <li><a href="#">Admin Dashboard</a></li>
+                        <li><a href="#">UI/UX Design</a></li>
+                        <li><a href="#">Support & Maintenance</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Solutions</h4>
+                    <ul>
+                        <li><a href="#">Food Delivery Platform</a></li>
+                        <li><a href="#">Restaurant Aggregator</a></li>
+                        <li><a href="#">Cloud Kitchen Solution</a></li>
+                        <li><a href="#">Multi-vendor Marketplace</a></li>
+                        <li><a href="#">White Label Solutions</a></li>
+                        <li><a href="#">Custom Development</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Technologies</h4>
+                    <ul>
+                        <li><a href="#">React Native</a></li>
+                        <li><a href="#">Flutter</a></li>
+                        <li><a href="#">Node.js</a></li>
+                        <li><a href="#">Python</a></li>
+                        <li><a href="#">AWS Cloud</a></li>
+                        <li><a href="#">Firebase</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Our Team</a></li>
+                        <li><a href="#">Case Studies</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
                 </div>
             </div>
             
             <div class="footer-bottom">
                 <div class="footer-bottom-content">
-                    <p>&copy; 2024 FoodFlow. All rights reserved. Built with ❤️ for food businesses worldwide.</p>
+                    <p>&copy; 2024 JurySoft. All rights reserved. Built with ❤️ for food businesses worldwide.</p>
                     <div class="footer-bottom-links">
                         <a href="#">Privacy Policy</a>
                         <a href="#">Terms of Service</a>
@@ -770,232 +829,6 @@
     </footer>
 
     <!-- JavaScript -->
-    <script>
-        // Mobile Menu Toggle
-        const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
-        const navLinks = document.querySelector('.nav-links');
-
-        mobileMenuBtn.addEventListener('click', () => {
-            mobileMenuBtn.classList.toggle('active');
-            navLinks.classList.toggle('active');
-        });
-
-        // Smooth Scrolling
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    const headerOffset = 80;
-                    const elementPosition = target.getBoundingClientRect().top;
-                    const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
-
-                    window.scrollTo({
-                        top: offsetPosition,
-                        behavior: 'smooth'
-                    });
-                }
-            });
-        });
-
-        // Counter Animation
-        const animateCounters = () => {
-            const counters = document.querySelectorAll('.metric-number');
-            
-            counters.forEach(counter => {
-                const target = parseInt(counter.dataset.target);
-                const duration = 2000;
-                const step = target / (duration / 16);
-                let current = 0;
-                
-                const updateCounter = () => {
-                    current += step;
-                    if (current < target) {
-                        counter.textContent = Math.floor(current);
-                        requestAnimationFrame(updateCounter);
-                    } else {
-                        counter.textContent = target;
-                        if (target === 98) counter.textContent = target + '%';
-                        else counter.textContent = target + '+';
-                    }
-                };
-                
-                updateCounter();
-            });
-        };
-
-        // Intersection Observer for Animations
-        const observerOptions = {
-            threshold: 0.1,
-            rootMargin: '0px 0px -50px 0px'
-        };
-
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('animate-in');
-                    
-                    // Trigger counter animation
-                    if (entry.target.classList.contains('hero-metrics')) {
-                        animateCounters();
-                    }
-                    
-                    observer.unobserve(entry.target);
-                }
-            });
-        }, observerOptions);
-
-        // Observe elements for animation
-        document.addEventListener('DOMContentLoaded', () => {
-            const elementsToAnimate = document.querySelectorAll(
-                '.service-card, .expertise-card, .category-card, .hero-metrics, .contact-item'
-            );
-            
-            elementsToAnimate.forEach(el => {
-                observer.observe(el);
-            });
-        });
-
-        // Form Submissions
-        document.querySelectorAll('form').forEach(form => {
-            form.addEventListener('submit', async (e) => {
-                e.preventDefault();
-                
-                const submitBtn = form.querySelector('button[type="submit"]');
-                const originalContent = submitBtn.innerHTML;
-                
-                // Show loading state
-                submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
-                submitBtn.disabled = true;
-                
-                // Simulate form submission
-                await new Promise(resolve => setTimeout(resolve, 2000));
-                
-                // Show success
-                submitBtn.innerHTML = '<i class="fas fa-check"></i> Message Sent!';
-                submitBtn.style.background = 'linear-gradient(135deg, #10b981 0%, #059669 100%)';
-                
-                // Reset form after 3 seconds
-                setTimeout(() => {
-                    form.reset();
-                    submitBtn.innerHTML = originalContent;
-                    submitBtn.disabled = false;
-                    submitBtn.style.background = '';
-                }, 3000);
-                
-                // Show notification
-                showNotification('Thank you! We\'ll get back to you within 24 hours.', 'success');
-            });
-        });
-
-        // Notification System
-        function showNotification(message, type = 'success') {
-            const notification = document.createElement('div');
-            notification.className = `notification notification-${type}`;
-            notification.innerHTML = `
-                <div class="notification-content">
-                    <i class="fas ${type === 'success' ? 'fa-check-circle' : 'fa-exclamation-circle'}"></i>
-                    <span>${message}</span>
-                </div>
-            `;
-            
-            document.body.appendChild(notification);
-            
-            setTimeout(() => {
-                notification.classList.add('show');
-            }, 100);
-            
-            setTimeout(() => {
-                notification.classList.remove('show');
-                setTimeout(() => {
-                    document.body.removeChild(notification);
-                }, 300);
-            }, 5000);
-        }
-
-        // Navbar Background on Scroll
-        //  background: rgba(37, 37, 40, 0.95);
-        window.addEventListener('scroll', () => {
-            const navbar = document.querySelector('.navbar');
-            if (window.scrollY > 100) {
-                navbar.style.background = '#ffffff';
-                navbar.style.boxShadow = '0 4px 20px rgba(255, 107, 53, 0.1)';
-            } else {
-                navbar.style.background =  '#ffffff';
-                navbar.style.boxShadow = '0 2px 20px rgba(255, 107, 53, 0.05)';
-            }
-        });
-
-        // Parallax Effect for Floating Images
-        window.addEventListener('scroll', () => {
-            const scrolled = window.pageYOffset;
-            const foodImages = document.querySelectorAll('.food-img');
-            
-            foodImages.forEach((img, index) => {
-                const speed = 0.1 + (index * 0.05);
-                img.style.transform = `translateY(${scrolled * speed}px) rotate(${scrolled * 0.05}deg)`;
-            });
-        });
-
-        // Lazy Loading for Images
-        if ('IntersectionObserver' in window) {
-            const imageObserver = new IntersectionObserver((entries, observer) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        const img = entry.target;
-                        img.src = img.dataset.src || img.src;
-                        img.classList.remove('lazy');
-                        imageObserver.unobserve(img);
-                    }
-                });
-            });
-
-            document.querySelectorAll('img[loading="lazy"]').forEach(img => {
-                imageObserver.observe(img);
-            });
-        }
-
-        // Add entrance animations
-        const addEntranceAnimations = () => {
-            const cards = document.querySelectorAll('.service-card, .expertise-card, .category-card');
-            cards.forEach((card, index) => {
-                card.style.animationDelay = `${index * 0.1}s`;
-                card.classList.add('fade-in-up');
-            });
-        };
-
-        // Initialize on load
-        document.addEventListener('DOMContentLoaded', () => {
-            addEntranceAnimations();
-        });
-
-        // Typing effect for hero title
-        function typeWriter(element, text, speed = 50) {
-            let i = 0;
-            element.innerHTML = '';
-            
-            function type() {
-                if (i < text.length) {
-                    element.innerHTML += text.charAt(i);
-                    i++;
-                    setTimeout(type, speed);
-                }
-            }
-            
-            type();
-        }
-
-        // Initialize typing effect
-        setTimeout(() => {
-            const heroTitle = document.querySelector('.hero-title');
-            if (heroTitle) {
-                const originalText = heroTitle.innerHTML;
-                typeWriter(heroTitle, originalText.replace(/<[^>]*>/g, ''), 30);
-            }
-        }, 1000);
-    </script>
+    <script src="script.js"></script>
 </body>
-</html>link" aria-label="Facebook">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                        <a href="#" class="social-
+</html>
